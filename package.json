@@ -1,0 +1,29 @@
+{
+  "name": "node.js_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vityaNazarov/node.js_CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vityaNazarov/node.js_CLI/issues"
+  },
+  "homepage": "https://github.com/vityaNazarov/node.js_CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
